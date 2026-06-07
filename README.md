@@ -79,4 +79,4 @@ Or just open `index.html` directly in any modern browser.
 
 **Ahmed** — [@0xDAA](https://github.com/0xDAA)
 
-Part of the **StackNim** Full Stack Development series.
+<p align="center">Made with ❤️ using pure HTML & CSS</p>
