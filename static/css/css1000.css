@@ -117,13 +117,14 @@ section .box #whatis {
   background-color: rgb(97, 255, 176);
   background-image: url(/static/imgs/bg-about.png);
 }
-.section-about #about {
+#about,
+#architecture {
   font-weight: bold;
   text-align: center;
   font-size: 3em;
 }
 
-.section-about #short-desc {
+.short-desc {
   font-size: 2em;
 }
 .section-about .section-about-details {
@@ -148,7 +149,21 @@ section .box #whatis {
   border-radius: 10px;
   width: 100%;
 }
+/* Section Architecture */
+.section-architecture {
+  padding: 70px;
+  background-color: rgb(0, 0, 0);
+}
 
+.section-architecture img {
+  display: block;
+  width: 80%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(97, 255, 176);
+  border-radius: 20px;
+}
 /* Footer */
 footer {
   display: flex;
