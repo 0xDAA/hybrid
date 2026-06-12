@@ -21,9 +21,9 @@ body {
   font-weight: 600;
   cursor: pointer;
   position: fixed;
+  top: 0;
   width: 100%;
   z-index: 101;
-  top: 0;
 }
 .ann a {
   text-decoration: none;
@@ -118,7 +118,6 @@ section .box #whatis {
 /* Section About */
 .section-about {
   padding: 70px;
-  background-color: rgb(97, 255, 176);
   background-image: url(/static/imgs/bg-about.png);
 }
 #about,
@@ -181,4 +180,28 @@ footer ul {
   display: flex;
   list-style-type: none;
   gap: 20px;
+}
+
+footer ul li {
+  cursor: pointer;
+}
+/* Top Button */
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background-color: rgb(97, 255, 176);
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid rgb(1, 105, 53);
+  width: 45px;
+  height: 45px;
+}
+
+.top img {
+  width: 45px;
+  height: 45px;
 }
